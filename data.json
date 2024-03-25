@@ -1,107 +1,110 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": "Song Jun Sang"
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "송준상",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "thdwns0331@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/DDunDDang" }
     ]
   },
 
   "workExperience": [
     {
       "id": 0,
-      "name": "커피프린스 1호점",
-      "position": "Front-end Engineer",
-      "period": ["2019. 01", "2019. 09"]
+      "name": "Java"
     },
     {
       "id": 1,
-      "name": "커피프린스 2호점",
-      "position": "바리스타",
-      "period": ["2022. 01", "now"]
+      "name": "Spring Boot"
+    },
+    {
+      "id": 2,
+      "name": "MySql"
+    },
+    {
+      "id": 3,
+      "name": "Redis"
+    },
+    {
+      "id": 4,
+      "name": "Git & Github"
+    },
+    {
+      "id": 5,
+      "name": "AWS"
     }
   ],
 
   "project": [
     {
       "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "Ticat",
+      "description": "다양한 축제 정보를 효과적으로 제공하여 사용자가 쉽고 빠르게 흥미로운 축제를 찾아 새로운 경험을 할 수 있도록 제작하였습니다.",
+      "repoUrl": "https://github.com/Butlers-Team/Ticat-server/",
       "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "period": ["2023. 08", "2024. 02"],
+      "stack": ["Gradle", "Spring Boot", "Java", "MySQL", "Redis", "AWS"]
     },
     {
       "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "name": "모영",
+      "description": "현재 상영중인 영화 정보를 수집하여, 한 사이트에서 볼 수 있도록 하여 사용자에게 편의를 주고자 만들었습니다. \n로그인 없이 주변 영화관 정보 및 영화 정보, 상영시간을 알 수 있고, 로그인을 진행하여 게시글 작성 및 채팅을 진행할 수 있습니다.",
+      "repoUrl": "https://github.com/mo-young-organization/moyoung-back",
+      "isTeam": true,
+      "period": ["2023. 08", "2024. 01"],
+      "stack": ["Gradle", "Spring Boot", "Spring Security", "JWT", "OAuth 2.0", "Web Socket", "Java", "MySQL", "Redis", "QueryDSL", "JSoup", "AWS"]
+    },
+    {
+      "id": 2,
+      "name": "단축 URL 서비스",
+      "description": "Maven 빌드 툴을 활용한 Spring Boot 애플리케이션을 구축해보고자 제작하였습니다.",
+      "repoUrl": "https://github.com/DDunDDang/Shorten_Url_Service",
       "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
-    }
-  ],
-
-  "activity": [
-    {
-      "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
+      "period": ["2024. 03", "2024. 03"],
+      "stack": ["Maven", "Spring Boot", "Java"]
     }
   ],
 
   "education": [
     {
       "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
+      "name": "상명대학교",
+      "period": ["2017. 03", "2024. 02"],
+      "description": "상명대학교(서울캠퍼스)에서 경영학부 학위를 취득하였습니다."
     },
     {
       "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "국비지원 부트캠프 (백엔드)",
+      "period": ["2022. 12", "2023. 06"],
+      "description": "Java - Spring Boot를 기반으로 한 백엔드 과정을 수료하였습니다."
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "전산회계 1급",
+      "date": "2015. 12. 24",
+      "organizer": "한국세무사회"
     },
     {
       "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "SQL 개발자 (SQLD)",
+      "date": "2023. 07. 07",
+      "organizer": "한국데이터산업진흥원"
     }
   ],
 
   "award": [
     {
       "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
+      "name": "IT/IS 활용 신사업(창업) 아이디어 공모전",
+      "date": "2020. 11. 19",
+      "organizer": "한국정보통신보안윤리학회",
+      "description": "최신 ICT 기술 또는 4차산업혁명 관련 기술을 활용한 창업아이디어 공모전에서 3인팀을 이루어 장려상을 수상하였습니다."
     }
   ]
 }
