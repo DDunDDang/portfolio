@@ -9,11 +9,11 @@ import type { AppProps } from "next/app";
 const DEFAULT_SEO = {
   title: "송준상 | Back-End Dev",
   description: "안녕하세요, 백엔드 개발자 송준상입니다.",
-  canonical: "https://DDunDDang.github.io/",
+  canonical: "https://ddunddang.vercel.app/",
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://DDunDDang.github.io/",
+    url: "https://ddunddang.vercel.app/",
     title: "송준상 | Back-End Dev",
     site_name: "송준상 | Back-End Dev",
     images: [
