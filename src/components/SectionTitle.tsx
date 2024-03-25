@@ -7,7 +7,8 @@ const SectionTitle = ({ children }: { children: React.ReactNode }) => {
     <>
       <br />
       <br />
-      <h2 className="font-semibold text-PRIMARY">{children} .</h2>
+      <br />
+      <h2 className="font-semibold text-PRIMARY">{children}</h2>
       <Divider />
     </>
   );
