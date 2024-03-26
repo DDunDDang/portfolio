@@ -7,11 +7,11 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   const [activeSection, setActiveSection] = useState<number | null>(null);
-  const [showNavMenu, setShowNavMenu] = useState<boolean>(true);
+  const [showNavMenu, setShowNavMenu] = useState<boolean>(false);
   const sectionsRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
-    function handleScroll() {
+    const handleScroll = () => {
       const currentScroll = window.scrollY + window.innerHeight / 2;
       let minDistance = Infinity;
       let activeIndex = null;
@@ -22,7 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
           const sectionHeight = section.offsetHeight;
           const sectionMidpoint = sectionTop + sectionHeight / 2;
           const distance = Math.abs(sectionMidpoint - currentScroll);
-          
+
           if (distance < minDistance) {
             minDistance = distance;
             activeIndex = index;
@@ -31,19 +31,17 @@ const Layout = ({ children }: LayoutProps) => {
       });
 
       setActiveSection(activeIndex);
-    }
+      setShowNavMenu(window.innerWidth > 1170);
+    };
+
+    handleScroll(); // 초기 렌더링 시 호출
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  useEffect(() => {
-    function handleResize() {
-      setShowNavMenu(window.innerWidth > 1170);
-    }
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener('resize', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
+    };
   }, []);
 
   const scrollToSection = (index: number) => {
@@ -60,7 +58,7 @@ const Layout = ({ children }: LayoutProps) => {
           <div
             key={index}
             id={`section${index + 1}`}
-            ref={el => sectionsRefs.current[index] = el}
+            ref={(el) => (sectionsRefs.current[index] = el)}
             className={`layout-section ${activeSection === index ? 'section-active' : ''}`}
           >
             {section}
