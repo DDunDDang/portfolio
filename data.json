@@ -46,7 +46,7 @@
       "repoUrl": "https://github.com/Butlers-Team/Ticat-server/",
       "isTeam": true,
       "period": ["2023. 08", "2024. 02"],
-      "stack": ["Gradle", "Spring Boot", "Java", "MySQL", "Redis", "AWS"]
+      "stack": ["Gradle", "Spring Boot", "Spring Security", "OAuth 2.0", "Java", "MySQL", "Redis", "AWS"]
     },
     {
       "id": 1,
