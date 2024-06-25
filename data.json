@@ -25,10 +25,6 @@
       "name": "MySql"
     },
     {
-      "id": 3,
-      "name": "Redis"
-    },
-    {
       "id": 4,
       "name": "Git & Github"
     },
@@ -44,6 +40,7 @@
       "name": "Ticat",
       "description": "다양한 축제 정보를 효과적으로 제공하여 사용자가 쉽고 빠르게 흥미로운 축제를 찾아 새로운 경험을 할 수 있도록 제작하였습니다.",
       "repoUrl": "https://github.com/Butlers-Team/Ticat-server/",
+      "webUrl": "",
       "isTeam": true,
       "period": ["2023. 08", "2024. 02"],
       "stack": ["Gradle", "Spring Boot", "Spring Security", "OAuth 2.0", "Java", "MySQL", "Redis", "AWS"]
@@ -51,8 +48,9 @@
     {
       "id": 1,
       "name": "모영",
-      "description": "현재 상영중인 영화 정보를 수집하여, 한 사이트에서 볼 수 있도록 하여 사용자에게 편의를 주고자 만들었습니다. \n로그인 없이 주변 영화관 정보 및 영화 정보, 상영시간을 알 수 있고, 로그인을 진행하여 게시글 작성 및 채팅을 진행할 수 있습니다.",
+      "description": "현재 상영중인 영화 정보를 수집하여, 한 사이트에서 볼 수 있도록 하여 사용자에게 편의를 주고자 만들었습니다. \n로그인 없이 주변 영화관 정보 및 영화 정보, 상영시간을 알 수 있고, 로그인을 진행하여 게시글 작성 및 채팅을 진행할 수 있도록 기획했습니다.",
       "repoUrl": "https://github.com/mo-young-organization/moyoung-back",
+      "webUrl": "https://stealth-error-21c.notion.site/Project-04b1663a760e4520acaedf8194c72a3c?pvs=74",
       "isTeam": true,
       "period": ["2023. 08", "2024. 01"],
       "stack": ["Gradle", "Spring Boot", "Spring Security", "JWT", "OAuth 2.0", "Web Socket", "Java", "MySQL", "Redis", "QueryDSL", "JSoup", "AWS"]
@@ -95,6 +93,12 @@
       "name": "SQL 개발자 (SQLD)",
       "date": "2023. 07. 07",
       "organizer": "한국데이터산업진흥원"
+    },
+    {
+      "id": 2,
+      "name": "정보처리기사 필기",
+      "date": "2024. 06. 05",
+      "organizer": "한국산업인력공단"
     }
   ],
 
